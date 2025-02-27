@@ -1,8 +1,5 @@
 # 🚀 Embedded Sensor System - Anomaly Detection & Data Logging
 
-![Project Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange)
 
 ## 📌 Overview
 This project is an **Embedded Sensor System** that collects real-time environmental data from multiple sensors, detects anomalies using different algorithms, and logs the data efficiently.
@@ -39,7 +36,7 @@ Ensure you have the following installed:
    - `DHT.h` (for temperature & humidity sensor)
    - `EEPROM.h` (for data logging)
 4. **Upload the code** to your microcontroller
-5. **Monitor sensor readings** via Serial Monitor (115200 baud rate)
+5. **Monitor sensor readings** via Serial Monitor (9600 baud rate)
 
 ---
 
@@ -65,28 +62,3 @@ This project implements three methods:
 | `MQ-2 processing`       | 383                | O(n)           |
 | `storeDataToEEPROM()`   | 107923             | O(n)           |
 
----
-
-## 📷 Screenshots
-| Sensor Data Logging  | Anomaly Detection |
-|----------------------|------------------|
-| ![Sensor Data](https://via.placeholder.com/400x200?text=Sensor+Data) | ![Anomaly Detection](https://via.placeholder.com/400x200?text=Anomaly+Detection) |
-
----
-
-## 📜 License
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 💡 Contributing
-Contributions are welcome! Feel free to fork this repository, submit a pull request, or open an issue.
-
-### 🤝 Acknowledgments
-Special thanks to:
-- The **open-source community** for providing useful libraries
-- [Your Name] for project development & testing
-
----
-
-_⭐ If you find this project helpful, consider giving it a star! ⭐_
